@@ -15,25 +15,25 @@
 <body>
     <div class="container">
         <header class="header">
-            <a href="#" class="logo">San Pietro</a>
+            <a class="logo">San Pietro</a>
 
             <nav class="navbar">
-                <a href="#">Accueil</a>
-                <a href="#">Carte</a>
-                <a href="#">Service</a>
-                <a href="#">Contact</a>
+                <a href="#accueil_ancre">Accueil</a>
+                <a href="#carte_ancre">Carte</a>
+                <a href="#services_ancre">Service</a>
+                <a href="#contact_ancre">Contact</a>
             </nav>
         </header>
 
 
-        <div class="title_container">
+        <section id="accueil_ancre" class="title_container">
             <img class="pizza" src="./assets/pizza-2810589_1920.jpg" alt="image de pizzas qui sortent du four">
             <h1 class="titre1">San Pietro</h1>
             <button class="contact-btn1">Nous Trouver</button>
-        </div>
+        </section>
 
 
-        <div class="carte">
+        <section id="carte_ancre" class="carte">
             <h2 class="titre2">Notre Carte</h2>
             <div class="menu">
                 <div class="block">
@@ -64,11 +64,56 @@
                         <li>Zuccotto ............10€</li>
                     </ul>
                 </div>
-
-
             </div>
+        </section>
 
-        </div>
+        <section id="services_ancre" class="services">
+            <h3 class="titre3">Nos Services</h3>
+            <div class="box-container">
+                <div class="box1"></div>
+                <div class="box2">
+                    <p>Toutes nos préparations <br>sont réalisées<br>sur place</p>
+                </div>
+                <div class="box3">
+                    <p>Nos aliments sont frais,<br>locaux et selectionnés<br>avec soin</p>
+                </div>
+                <div class="box4"></div>
+                <div class="box5">
+                </div>
+                <div class="box6">
+                    <p>Accueil et service<br>
+                        agréable et<br> de qualité</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact_ancre" class="contact">
+            <h4 class="titre4">Nous Contacter</h4>
+            <div class="contact-container">
+                <div class="infos">
+
+
+                    <ul>
+                        <li><span><img class="contact-icon" src="./assets/contact-icon.png"
+                                    alt="icône de contact"></span>Trattoria San
+                            Pietro</li>
+                        <li class="clc"><span><img src="./assets/location-icon.png"
+                                    alt="icône de marqueur de localisation"></span>Via S. Pietri,
+                            95,<br> 35139 Padova PD,<br> Italie</li>
+                        <li><span><img class="phone-icon" src="./assets/phone-icon.png"
+                                    alt="icône de téléphone"></span>+390498760330</li>
+                    </ul>
+                </div>
+                <div class="map">
+                    <img src="./assets/map_restaurant.png" alt="géolocalisation du restaurant">
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div>
+                <p>Designed by JdeDev 2021</p>
+            </div>
+        </footer>
     </div>
 
 </body>
