@@ -104,6 +104,11 @@ body {
   color: rgb(255, 255, 255);
   border: solid black 2px;
 }
+@media (max-width: 768px) {
+  .contact-btn1 {
+    font-size: 25px;
+  }
+}
 
 /* ----------- Section Menus ------------ */
 .carte {
@@ -159,6 +164,16 @@ body {
   padding: 0;
   margin: 0;
   font-size: 1.5em;
+}
+
+@media (max-width: 768px) {
+  .menu {
+    display: flex;
+    flex-direction: column;
+  }
+  .block {
+    padding-top: 2rem;
+  }
 }
 
 /* ------------ Section Services -------------- */
@@ -237,6 +252,12 @@ body {
 .box5 {
   background-image: url("./assets/waiter-5513560_1920.jpg");
   background-size: cover;
+}
+@media (max-width: 768px) {
+  .box-container {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 /* ------------ Contact -------------- */
