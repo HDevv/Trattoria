@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
 html,
 body {
   box-sizing: border-box;
@@ -8,6 +10,7 @@ body {
   max-width: 100vw;
   height: 100%;
   overflow-x: hidden;
+  font-family: "Roboto";
 }
 
 /* ----------- LOADER ----------- */
@@ -76,17 +79,18 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  height: 9%;
-  background-color: rgb(214, 42, 19);
+  height: 13%;
+  background-color: rgb(156, 30, 14);
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: solid black 1px;
+  border: solid black 2px;
   z-index: 9;
 }
 
 .logo {
   font-size: 28px;
+  font-weight: bold;
   text-decoration: none;
   color: #fff;
   padding-left: 1rem;
@@ -149,7 +153,7 @@ body {
   position: absolute;
   top: 18rem;
   font-family: "Pacifico";
-  font-size: 48px;
+  font-size: 88px;
   color: aliceblue;
 }
 .contact-btn1 {
@@ -160,7 +164,7 @@ body {
   border-radius: 50px;
   font-size: 2rem;
   font-weight: bold;
-  background-color: rgb(160, 22, 22);
+  background-color: rgb(156, 30, 14);
   color: rgb(255, 255, 255);
   border: solid black 2px;
 }
@@ -172,11 +176,12 @@ body {
 
 /* ----------- Section Menus ------------ */
 .carte {
+  border: solid black 2px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 3rem;
-  margin-bottom: 8rem;
+
+  padding-bottom: 6rem;
 }
 .carte img {
   width: 85%;
@@ -185,17 +190,15 @@ body {
 }
 .titre2 {
   font-family: "Pacifico";
-  color: rgb(37, 185, 37);
+  color: rgb(30, 146, 30);
   font-weight: bold;
   font-size: 35px;
-  top: 60rem;
-  padding-top: 2rem;
 }
 .block .entrees,
 .block .plats,
 .block .desserts {
   font-family: "Pacifico";
-  color: rgb(37, 185, 37);
+  color: rgb(30, 146, 30);
   font-size: 35px;
   font-weight: bold;
   padding-bottom: 1rem;
@@ -221,6 +224,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  justify-content: baseline;
   list-style: none;
   padding: 0;
   margin: 0;
@@ -242,7 +246,7 @@ body {
 .services {
   position: relative;
   height: 25%;
-  background: #7e1111;
+  background: rgb(156, 30, 14);
 }
 
 .titre3 {
@@ -251,7 +255,7 @@ body {
   justify-content: center;
   align-items: center;
   padding-top: 2rem;
-  color: aliceblue;
+  color: #fff;
   font-size: 35px;
 }
 
@@ -295,9 +299,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: aliceblue;
+  color: #fff;
   background-color: #530f0f;
-  margin: auto;
   margin-bottom: 3rem;
   text-align: center;
   font-size: 2rem;
@@ -351,7 +354,7 @@ body {
   justify-content: center;
   align-items: center;
   padding-top: 2rem;
-  color: rgb(37, 185, 37);
+  color: rgb(30, 146, 30);
   font-size: 35px;
 }
 
@@ -376,7 +379,7 @@ body {
 }
 
 .infos li {
-  color: rgb(37, 185, 37);
+  color: rgb(30, 146, 30);
   padding-bottom: 7rem;
   text-align: center;
   display: flex;
@@ -432,7 +435,7 @@ span {
 /* ------------ Footer -------------- */
 footer {
   width: 100%;
-  background-color: rgb(161, 34, 17);
+  background-color: rgb(156, 30, 14);
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -442,7 +445,7 @@ footer {
 footer p {
   font-size: 2rem;
   font-family: "Pacifico";
-  color: antiquewhite;
+  color: #fff;
 }
 
 @media (max-width: 768px) {
