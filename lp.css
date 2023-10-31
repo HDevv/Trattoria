@@ -121,7 +121,7 @@ body {
   width: 100%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   .navbar a {
     white-space: nowrap;
     font-size: 1rem;
